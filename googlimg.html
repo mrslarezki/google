@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>My google</title>
+</head>
+<body id="body">
+    <header>
+        <div class="tool_bar">
+            <ul class="tools">
+                <li><div class="tool_panel"><i class="ri-grid-fill"></i></div></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="search_section">
+        <div class="container">
+            <div class="content">
+                
+                <div class="logo">
+                    
+                    <p><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></p>
+                    <div class="img">Image</div>
+                </div>
+                <div class="search_bar">
+                    <form action="http://images.google.com/search" method="get">
+                        <input type="search" name="google" id="">
+                        <button type="subbmit"><i class="ri-search-line"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="setting_dot" onclick="panel()">
+            <i class="ri-settings-3-line"></i>
+        </div>
+        <div class="settings_panel" id="setting_panel">
+            <!-- Theme change button -->
+            <div class="theme_btn" onclick="change_theme()">
+                change theme
+                <i class="ri-moon-clear-line" id="theme-button"></i>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    <script src="assets/script.js"></script>
+
+</body>
+</html>

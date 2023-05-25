@@ -1,0 +1,208 @@
+/*==================== GOOGLE FONTS ====================*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*==================== VARIABLES CSS ====================*/
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    
+    color: var(--text-color);
+    min-width: 100%;
+}
+
+.tool_bar {
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    
+    
+}
+
+li{
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool_btn i {
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+.tools_panel {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    height: 400px;
+    width: 300px;
+    float: right;
+    display: over;
+    z-index: 100;
+    overflow-y: scroll;
+    transition: 3s;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    margin-block: auto;
+    margin-bottom: 20px;
+}
+
+span:first-child {
+    color: #176BEF;
+}
+
+span:nth-child(2) {
+    color: #FF3E30;
+}
+
+span:nth-child(3) {
+    color: #F7B529;
+}
+
+span:nth-child(4) {
+    color: #176BEF;
+}
+
+span:nth-child(5) {
+    color: #179C52;
+}
+
+span:last-child {
+    color: #FF3E30;
+}
+
+.img {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.search_bar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0%;
+    width: 500px;
+    margin: 10px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+}
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+input {
+    border: none;
+    width: 450px;
+    height: auto;
+    border-radius:10px ;
+    background-color: transparent;
+}
+
+button{
+    border: none;
+    background:none;
+    margin: 0 10px 0 10px;
+
+}
+
+button i {
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.setting_dot {
+    width: fit-content;
+    float: right;
+    margin: 0 30px 30px 30px ;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+
+}
+
+
+.setting_dot i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.settings_panel {
+    z-index: 100;
+    float: right;
+    padding: 60px;
+    border-radius: 5px;
+    margin: 0 20px 20px 0;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    margin-top: -100px;
+    display: none;
+    transition-delay: 3s;
+}
+
+.theme_btn {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    cursor: pointer;
+    
+}
+
+.theme_btn i {
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
